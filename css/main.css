@@ -385,7 +385,7 @@ div.empl_nth:nth-of-type(even) {
   max-width: 960px;
   margin: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
@@ -443,6 +443,9 @@ div.empl_nth:nth-of-type(even) {
   .nav_btn {
     display: flex;
   }
+  .h_banner {
+    font-size: 41px;
+  }
   .empl {
     flex-direction: column;
   }
@@ -452,10 +455,22 @@ div.empl_nth:nth-of-type(even) {
   .img {
     width: 285px;
   }
+  .person {
+    font-size: 20px;
+  }
   .team_text {
     text-align: center;
   }
+  .headline {
+    font-size: 30px;
+  }
   .offer {
     width: 30%;
+  }
+  .o_text {
+    font-size: 20px;
+  }
+  .copyrights {
+    justify-content: space-evenly;
   }
 }
