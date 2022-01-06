@@ -1,0 +1,461 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.n_box {
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  z-index: 2;
+}
+
+.nav_box {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+div {
+  display: block;
+}
+
+.panel_container {
+  margin: auto;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_container {
+  width: 50%;
+  display: flex;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.nav_info {
+  font-size: 25px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.head_menu {
+  color: #f1f1f1;
+  margin: 0 10px;
+  padding: 0;
+  vertical-align: middle;
+  max-width: 88px;
+  text-align: center;
+  flex-basis: auto;
+  text-size-adjust: 100%;
+  text-decoration: none;
+}
+
+a.menu_anim:hover {
+  color: black;
+  background: white;
+}
+
+a.menu_blocked:hover {
+  cursor: not-allowed;
+}
+
+.nav_btn {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: not-allowed;
+}
+
+.nav_line {
+  width: 45px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: #ffffff;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=960&q=80);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.header_pic {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(2, 2, 2);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.box_banner {
+  margin: 0 auto;
+  padding: 20px;
+  color: #ffffff;
+  background-color: transparent;
+  height: 100vh;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.c_banner {
+  background-color: transparent;
+}
+
+.h_banner {
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.p_banner {
+  color: #ffffff;
+  margin: 35px 0;
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  color: #ffffff;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition: 1s;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: rgb(0, 0, 0);
+  background: white;
+}
+
+.set_box {
+  width: 100%;
+  max-width: 960px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team_b {
+  width: 100%;
+  background-color: #c0c0c0;
+  z-index: 2;
+}
+
+.team {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.headline {
+  width: 100%;
+  max-width: 960px;
+  margin: 30px auto 20px auto;
+  color: #000000;
+  font-size: 40px;
+  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.team_box {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.empl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.empl:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.img {
+  width: 400px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+}
+
+.team_img1 {
+  background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=960&q=200");
+}
+
+.team_img2 {
+  background-image: url("https://media.istockphoto.com/photos/cheerful-fashionable-adult-man-in-city-setting-picture-id1310533180?b=1&k=20&m=1310533180&s=170667a&w=0&h=EdRuvIkrMifhyZJkHXf5Pk68ri44_g7OFnU8lIdbc-c=");
+}
+
+.team_img3 {
+  background-image: url("https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+}
+
+div.empl_nth:nth-of-type(even) {
+  text-align: right;
+}
+
+.team_text {
+  color: #020202;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1;
+}
+
+.person {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.p_text {
+  font-size: 18px;
+  margin-top: 25px;
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.offer_b {
+  width: 100%;
+  background-color: #000000;
+  z-index: 2;
+}
+
+.head_offer {
+  margin: auto;
+}
+
+.h2 {
+  padding: 20px 0;
+  color: #ffffff;
+  justify-items: flex-start;
+}
+
+.box_offer {
+  width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.offer {
+  width: 25%;
+  margin: 40px 20px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+  transition: transform 0.5s linear;
+  position: relative;
+}
+
+.offer:hover {
+  transform: scale(1.05);
+}
+
+.img_br1 {
+  background-image: url("https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJyZWFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+}
+
+.red_point {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.img_br2 {
+  background-image: url("https://images.unsplash.com/photo-1579697096985-41fe1430e5df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJyZWFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+}
+
+.img_br3 {
+  background-image: url("https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFrZXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+}
+
+.img_br4 {
+  background-image: url("https://images.unsplash.com/photo-1509365465985-25d11c17e812?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFzdHJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+}
+
+.img_br5 {
+  background-image: url("https://images.unsplash.com/photo-1612539466296-4ecf1db303e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmFrZXJ5JTIwcHJvZHVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+}
+
+.img_br6 {
+  background-image: url("https://media.istockphoto.com/photos/homemade-food-and-little-helper-picture-id842898832?b=1&k=20&m=842898832&s=170667a&w=0&h=ZnjELqGfXiJopQ-jfnmJAkq2cbLP0S9tJvy4oYtvdpI=");
+}
+
+.ibr {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.o_text {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 34px;
+  text-align: center;
+}
+
+.footer {
+  margin: 0 auto;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_b {
+  width: 100%;
+  padding: 20px;
+  background-color: #313131;
+  z-index: 2;
+}
+
+.copyrights {
+  width: 100%;
+  height: 5vh;
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cop_text {
+  color: #f1f1f1;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.social_m {
+  font-size: 20px;
+}
+
+.fab {
+  color: #f1f1f1;
+  font-family: "Font Awsome 5 Brands";
+  font-weight: 400;
+}
+
+.fa-instagram-square {
+  margin-right: 5px;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+.fa-instagram-square::before {
+  content: "\f16d";
+  transition: transform 0.5s linear;
+  position: relative;
+}
+
+.fa-facebook-square::before {
+  content: "\f082";
+  transition: transform 0.5s linear;
+  position: relative;
+}
+
+.fa-instagram-square:hover {
+  transform: scale(1.1);
+}
+
+.fa-facebook-square:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 960px) {
+  .nav_info {
+    display: none;
+  }
+  .nav_btn {
+    display: flex;
+  }
+  .empl {
+    flex-direction: column;
+  }
+  .empl:nth-of-type(even) {
+    flex-direction: column;
+  }
+  .img {
+    width: 285px;
+  }
+  .team_text {
+    text-align: center;
+  }
+  .offer {
+    width: 30%;
+  }
+}
