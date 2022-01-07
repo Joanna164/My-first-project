@@ -86,6 +86,7 @@ a.menu_blocked:hover {
   border: none;
   background: none;
   cursor: not-allowed;
+  display: none;
 }
 
 .nav_line {
@@ -465,12 +466,33 @@ div.empl_nth:nth-of-type(even) {
     font-size: 30px;
   }
   .offer {
-    width: 30%;
+    width: 40%;
   }
   .o_text {
-    font-size: 20px;
+    font-size: 35px;
   }
   .copyrights {
     justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .img {
+    width: 52%;
+  }
+  .offer {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .img {
+    width: 64%;
+  }
+  .offer {
+    width: 70%;
+  }
+  .o_text {
+    font-size: 28px;
   }
 }
