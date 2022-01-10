@@ -70,22 +70,12 @@ div {
   text-decoration: none;
 }
 
-a.menu_anim:hover {
-  color: black;
-  background: white;
-}
-
-a.menu_blocked:hover {
-  cursor: not-allowed;
-}
-
 .nav_btn {
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: none;
   background: none;
-  cursor: not-allowed;
   display: none;
 }
 
@@ -160,11 +150,6 @@ a.menu_blocked:hover {
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
-}
-
-.btn:hover {
-  color: rgb(0, 0, 0);
-  background: white;
 }
 
 .set_box {
@@ -314,10 +299,6 @@ div.empl_nth:nth-of-type(even) {
   position: relative;
 }
 
-.offer:hover {
-  transform: scale(1.05);
-}
-
 .img_br1 {
   background-image: url("https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJyZWFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
 }
@@ -429,12 +410,29 @@ div.empl_nth:nth-of-type(even) {
   position: relative;
 }
 
-.fa-instagram-square:hover {
-  transform: scale(1.1);
-}
+@media screen and (min-width: 960px) {
+  a.menu_anim:hover {
+    color: black;
+    background: white;
+  }
 
-.fa-facebook-square:hover {
-  transform: scale(1.1);
+  a.menu_blocked:hover {
+    cursor: not-allowed;
+  }
+  .btn:hover {
+    color: rgb(0, 0, 0);
+    background: white;
+  }
+  .offer:hover {
+    transform: scale(1.05);
+  }
+  .fa-instagram-square:hover {
+    transform: scale(1.1);
+  }
+
+  .fa-facebook-square:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media screen and (max-width: 960px) {
